@@ -5,18 +5,25 @@
 // Font declarations
 @font-face {
     font-family: 'Cera Pro Bold';
-    src: url('{{ site.baseurl }}/assets/fonts/cera-pro-bold.woff2') format('woff2'),
-         url('{{ site.baseurl }}/assets/fonts/cera-pro-bold.woff') format('woff');
+    src: url('../fonts/cera-pro-bold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 
 @font-face {
     font-family: 'Social Gothic Rough';
-    src: url('{{ site.baseurl }}/assets/fonts/social-gothic-rough.woff2') format('woff2'),
-         url('{{ site.baseurl }}/assets/fonts/social-gothic-rough.woff') format('woff');
+    src: url('../fonts/social-gothic-rough.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
+}
+
+// Font loading transition classes
+.fonts-loaded {
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+}
+.fonts-loading {
+    opacity: 0;
 }

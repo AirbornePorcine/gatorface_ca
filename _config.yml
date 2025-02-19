@@ -39,49 +39,8 @@ fa_v4_support: #Bool Add FontAwesome 4 support
 gtag_id                 :  
 analytics_id            :  
 
-# Search providers
-# Available free search engines:
-# - lunr https://lunrjs.com/ 
-# - algolia v4 https://www.algolia.com/ - needs further configuration
-# - google custom search engine https://cse.google.es/ 
-search:
-  provider              : lunr #Select a provider for enable search: lunr, algolia, google
-  label                 :  #default ["Search"] Text on navbar when search is enabled 
-  landing_page          :  #default ["/search"] Link on navbar 
-  lunr_maxwords         :  #default [30] lunr only - May slow down your site build
-  algolia_logo          :  true #Displays algolia logo. Should be set to true if you are on a community plan, otherwise false.  
 
 google_cse_id: #Your cse id
-# This site uses jekyll-algolia plugin https://community.algolia.com/jekyll-algolia/
-# Recommended additional configuration provided, could be modified. Add your own parameters
-algolia:                                                                   
-  application_id        : 
-  index_name            : 
-  search_only_api_key   : 
-  files_to_exclude:         #Optional
-    - _layouts/*.html
-    - _includes/*.html
-  extensions_to_index:      #Optional
-    - html
-    - md
-  searchableAttributes:     #Optional                                                    
-    - title                                                                    
-    - headings                                                                 
-    - unordered(content)                                                       
-    - unordered(subtitle)                                                      
-    - unordered(categories)                                                    
-    - unordered(collection)                                                    
-    - unordered(tags) 
-  customRanking:            #Optional
-    - desc(include_on_search)
-    - desc(title)
-    - desc(content) 
-    - desc(subtitle)
-    
-comments:
-  provider:         #Enable comments via Disqus, giscus or Cactus.chat
-  disqus_shortname: #Your site id : check your address https://{{ disqus.shortname }}.disqus.com/admin/
-  cactus_shortname: #Your site id as registered with Cactus.chat
   
 # B. Navigation
 # Configure your navbar and the footer of your site
@@ -93,30 +52,22 @@ navbar:
   style     :  dual #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
   expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
   brand:
-    title   :  Home # Title in navbar
+    title   : "<img src='/assets/images/gatorface_logo_white.png' alt='Gatorface Woodworking' style='width: 200px; height: auto;'>"  # Title in navbar
     url     :  # default["url/baseurl"]
-    img     :  # An small image, try 30x30px
+    img     : # An small image, try 30x30px
   nav:
-  - title   : Gallery
-    url     : /gallery/ # url	
+  - title   : Projects
+    url     : /projects/ # url	
   - title   : About
-    url     : /about
+    url     : /about/
   - title   : Contact
-    url     : /contact
+    url     : /contact/
 #  - title   : # Label submenu
 #    child:		
 #    - title: # Child label		
 #      url  : # child url	
 #    - title: # Child label		
 #      url  : # child url	
-
-# Social links to be placed on your site footer
-footer:
-  links:
-    - label: "RSS"
-      icon: "fa fa-rss"
-      url:  "./atom.xml"
-  copyright: # default is © <year> <name> 
   
 # C. Theme Settings
 # Google Fonts https://fonts.google.com/, add as many as you need
@@ -129,16 +80,21 @@ chulapa-skin:
   skin         :  # Optional predefined skins
   autothemer    :  true # Bool: Use autotheming
   vars          :    
-    primary     : "#5B513C" #"#B2D235" default ["#007bff"] - Bootstrap blue
+    primary     : "#5B513C"
     secondary   : "#B2D235"
-    font-family-base: "'Cera Pro Bold', sans-serif"
-    headings-font-family: "'Social Gothic Rough', serif"  # This will apply to all headings (h1-h6)
+    font-family-base: "'Cera Pro Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+    headings-font-family: "'Social Gothic Rough', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, serif"
+    container-max-widths: "(sm: 540px, md: 720px, lg: 960px, xl: 1400px)"
+    container-fluid-max: 1600px
 
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
 # Collections https://jekyllrb.com/docs/step-by-step/09-collections/
 collections_dir     : 
-permalink           : /:title/
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 
 # Defaults https://jekyllrb.com/docs/configuration/front-matter-defaults/
@@ -154,24 +110,12 @@ defaults:
       cloudcategory_url   : /categories #This is where the link on categories would redirect
   -
     scope:
-      path: ""
-      type: "posts"
+      path: "_projects"
     values:
-      header_type       : "post"
-      include_on_search : true
-      include_on_feed   : true
-      show_date         : true
-      show_related      : true
-      show_bottomnavs   : true
-      show_sociallinks  : true
-      show_comments     : true
-      show_tags         : true
-      show_categories   : true
-      show_author       : true
-      show_breadcrumb   : true
+      show_breadcrumb: true
       breadcrumb_list   :
-        - label: Blog
-          url: /blog/
+        - label: Projects
+          url: /projects/
   -
     scope:
       path: ""
