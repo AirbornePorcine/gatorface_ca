@@ -1,0 +1,29 @@
+<style>
+  .gallery-item {
+    transition: transform 0.3s ease;
+    display: block;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+</style>
+
+<div class="row">
+  {% for image in include.images %}
+    <div class="col-md-4 mb-4">
+      {% if include.links and include.links[forloop.index0] %}
+        <a href="{{ include.links[forloop.index0] }}" class="gallery-item">
+      {% else %}
+        <a href="{{ image }}" data-lightbox="gallery" data-title="{{ include.captions[forloop.index0] }}" class="gallery-item">
+      {% endif %}
+          <img src="{{ image }}" class="img-fluid rounded" alt="{{ include.captions[forloop.index0] }}">
+        </a>
+    </div>
+  {% endfor %}
+</div> 
