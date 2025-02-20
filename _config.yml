@@ -52,7 +52,7 @@ navbar:
   style     :  dual #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
   expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
   brand:
-    title   : "<img src='/assets/images/gatorface_logo_white.png' alt='Gatorface Woodworking' style='width: 200px; height: auto;'>"  # Title in navbar
+    title   : "<img src='/assets/images/gatorface_logo.png' alt='Gatorface Woodworking' style='width: 200px; height: auto;'>"  # Title in navbar
     url     :  # default["url/baseurl"]
     img     : # An small image, try 30x30px
   nav:
@@ -116,19 +116,6 @@ defaults:
       breadcrumb_list   :
         - label: Projects
           url: /projects/
-  -
-    scope:
-      path: ""
-      type: "cheatsheet"
-    values:
-      header_type       : "hero"
-      show_bottomnavs   : true
-      show_sociallinks  : true
-      include_on_search : true
-      show_breadcrumb   : true
-      breadcrumb_list   :
-        - label: Cheatsheets
-          url: /cheatsheets
 
 
 # XX. Other settings - no need to modify

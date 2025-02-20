@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "<img src='/assets/images/Gatorface_Logo_white.png' alt='Gatorface Logo' style='width: 65%; max-width: 600px; height: auto;'>"
+title: "<img src='/assets/images/gatorface_logo.png' alt='Gatorface Logo' style='width: 65%; max-width: 600px; height: auto;'>"
 header_type: splash
 subtitle: "<span style='font-family: Cera Pro Bold, sans-serif;'>Canadian West Coast Furniture & Home Goods<br>Low-Impact Traditional Woodcrafts</span>"
 header_img: /assets/images/IMG_0190.jpg
