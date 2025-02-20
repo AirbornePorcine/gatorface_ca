@@ -139,6 +139,8 @@ exclude:
 
 include:
  - _pages
+ - _projects
+ - assets
 
 # Conversion
 markdown: kramdown
