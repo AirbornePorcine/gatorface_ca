@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Raised Planter"
-image: /assets/images/IMG_1081.jpg
+image: /assets/images/IMG_1081.webp
 ---
 ![{{ page.title }}]({{ page.image }})
 ## About the Piece

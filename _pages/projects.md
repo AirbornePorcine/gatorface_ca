@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 header_type: hero
-header_img: /assets/images/IMG_0190.jpg
+header_img: /assets/images/IMG_0190.webp
 permalink: /projects/
 ---
 

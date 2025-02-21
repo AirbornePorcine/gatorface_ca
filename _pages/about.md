@@ -1,7 +1,7 @@
 ---
 layout: default
 header_type: hero
-header_img: /assets/images/IMG_0190.jpg
+header_img: /assets/images/IMG_0190.webp
 title: About
 permalink: /about/
 ---
@@ -93,7 +93,7 @@ Welcome to Gatorface Woodworking, a studio dedicated to creating mindful, enduri
 
 ## The Craftsperson
 {: .section-title}
-![Paul at Gatorface Woodworking](/assets/images/IMG_0002.jpg){: .img-fluid .rounded-circle .mx-auto .d-block style="width: 200px; height: 200px; object-fit: cover; margin: 2rem auto;"}
+![Paul at Gatorface Woodworking](/assets/images/IMG_0002.webp){: .img-fluid .rounded-circle .mx-auto .d-block style="width: 200px; height: 200px; object-fit: cover; margin: 2rem auto;"}
 
 
 My journey into woodworking began with a revelation about its incredible potential for sustainability. Working with wood offers an infinite canvas for creating beautiful, useful pieces while maintaining a deep connection to environmental responsibility. The tactile nature of shaping wood by hand has become fundamental to my approach, making each project an opportunity to explore the unique characteristics of the material.

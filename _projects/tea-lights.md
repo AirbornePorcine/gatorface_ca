@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Tea Lights"
-image: /assets/images/IMG_1080.jpg
+image: /assets/images/IMG_1080.webp
 ---
 ![{{ page.title }}]({{ page.image }})
 ## About the Piece

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Store Sign"
-image: /assets/images/IMG_1643.jpg
+image: /assets/images/IMG_1643.webp
 ---
 ![{{ page.title }}]({{ page.image }})
 ## About the Piece

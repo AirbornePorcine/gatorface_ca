@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Bath Caddy"
-image: /assets/images/IMG_4178.jpeg
+image: /assets/images/IMG_4178.webp
 ---
 ![{{ page.title }}]({{ page.image }})
 ## About the Piece

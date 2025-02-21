@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Ring Dishes and Box"
-image: /assets/images/IMG_1083.jpg
+image: /assets/images/IMG_1083.webp
 ---
 ![{{ page.title }}]({{ page.image }})
 ## About the Piece

@@ -52,7 +52,7 @@ navbar:
   style     :  dual #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
   expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
   brand:
-    title   : "<img src='/assets/images/gatorface_logo.png' alt='Gatorface Woodworking' style='width: 200px; height: auto;'>"  # Title in navbar
+    title   : "<img src='/assets/images/gatorface_logo.webp' alt='Gatorface Woodworking' style='width: 200px; height: auto;'>"  # Title in navbar
     url     :  # default["url/baseurl"]
     img     : # An small image, try 30x30px
   nav:
@@ -165,4 +165,9 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+webp:
+  enabled: true
+  quality: 100
+  img_dir: ["assets/images"]
 
