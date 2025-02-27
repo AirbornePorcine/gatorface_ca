@@ -41,7 +41,7 @@ permalink: /contact/
     <h2>Tell Us What You're Dreaming Up</h2>
 
     <div class="contact-form-container">
-      <form action="https://formspree.io/f/xeoevpvb" method="POST" class="contact-form">
+      <form id="contactForm" class="contact-form">
         <div class="form-group">
           <label for="name">What's your name?</label>
           <input type="text" name="name" id="name" required class="form-control" placeholder="Your name">
@@ -56,12 +56,50 @@ permalink: /contact/
           <label for="message">Tell us more about what you have in mind:</label>
           <textarea name="message" id="message" rows="5" required class="form-control" placeholder="Share your ideas, questions, or just say hi!"></textarea>
         </div>
+
+        <label>
+          <input type="checkbox" id="subscribe" name="subscribe">
+            Subscribe to our newsletter - max 1 email per month, promise!
+        </label>
         
         <button type="submit" class="btn btn-primary">Send It Our Way →</button>
+
+        <p id="formMessage" style="display: none; margin-top: 10px;"></p>
       </form>
     </div>
   </div>
 </div>
+
+<script>
+  document.getElementById("contactForm").addEventListener("submit", async function(event) {
+    event.preventDefault(); // Prevents redirection
+
+    const form = event.target;
+    const formData = new FormData(form);
+    const messageElement = document.getElementById("formMessage");
+
+    try {
+      const response = await fetch("https://hook.us2.make.com/q2m6u1q649a9i6i8v2gacbwr834xenlj", {
+        method: "POST",
+        body: formData
+      });
+
+      if (response.ok) {
+        messageElement.textContent = "Thanks for reaching out! We'll get back to you soon.";
+        messageElement.style.color = "green";
+        form.reset(); // Optional: Clears the form after submission
+      } else {
+        messageElement.textContent = "Oops! Something went wrong. Please try again.";
+        messageElement.style.color = "red";
+      }
+    } catch (error) {
+      messageElement.textContent = "Error submitting the form. Please check your internet connection.";
+      messageElement.style.color = "red";
+    }
+
+    messageElement.style.display = "block";
+  });
+</script>
 
 <style>
 .intro-section {
