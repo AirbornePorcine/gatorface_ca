@@ -7,81 +7,82 @@ remote_theme: dieghernan/chulapa
 # A. Site Settings /SEO options
 # Overall options for your site, would affect your site SEO
 # Default values are explained
-locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
-title                   : Gatorface Woodworking
-title_separator         : " | "
-subtitle                : Custom Woodworking in Nanaimo, BC
-description             : Custom woodworking and furniture making in Nanaimo, BC
-url                     : "https://gatorfacewoodworking.ca"     # Use your custom domain if you have one
-baseurl                 : ""     # Leave empty since you're using a custom domain
-words_per_minute        :     #default[200]
-timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+locale: #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
+title: Gatorface Woodworking
+title_separator: " | "
+subtitle: Custom Woodworking in Nanaimo, BC
+description: Custom woodworking and furniture making in Nanaimo, BC
+url: "https://gatorfacewoodworking.ca" # Use your custom domain if you have one
+baseurl: "" # Leave empty since you're using a custom domain
+words_per_minute: #default[200]
+timezone: #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # SEO
-og_image                :     #default[author.avatar (see below)] or [github-avatar]
-twitter_site            :     #Avoid @
+og_image: #default[author.avatar (see below)] or [github-avatar]
+twitter_site: #Avoid @
 author:
-  name                  :  Gatorface Woodworking   # Name Surname Company
-  avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
-  location              :  "Nanaimo, BC, Canada"   # New York, USA 
-#  links:                
+  name: Gatorface Woodworking # Name Surname Company
+  avatar: # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
+  location: "Nanaimo, BC, Canada" # New York, USA
+#  links:
 #    - url:  #A link or email: https://twitter.com/jack, mail@example.com
 #      icon: # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
 #    - url:  # Another link
 #      icon: # Anothet FontAwesome code
 
 fa_version: #default ["6"] Use 6 or 5
-fa_kit_code: # Your FontAwesome kit code. If not provided a free hosted version (slower) will be loaded:  https://fontawesome.com/ 
-fa_v4_support: #Bool Add FontAwesome 4 support 
+fa_kit_code: # Your FontAwesome kit code. If not provided a free hosted version (slower) will be loaded:  https://fontawesome.com/
+fa_v4_support: #Bool Add FontAwesome 4 support
 # Web tracking - Google services https://analytics.google.com/analytics/web/
 # gtag_id is the preferred option, see https://developers.google.com/analytics/devguides/collection/gtagjs/migration?hl=en
 # analytics provided for backwards compatibility
-gtag_id                 :  "G-YFPDP0L9JG"
-analytics_id            :  
-
+gtag_id: "G-YFPDP0L9JG"
+analytics_id:
 
 google_cse_id: #Your cse id
-  
+
 # B. Navigation
 # Configure your navbar and the footer of your site
 
-# Navbar: 
+# Navbar:
 #   "brand" options would be set on the left side of your navbar
 #   "nav" would be set on the right side. Two-level nav links available
 navbar:
-  style     :  dual #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
-  expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
+  style: dual #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
+  expand: # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
   brand:
-    title   : "<img src='/assets/images/gatorface_logo.webp' alt='Gatorface Woodworking' style='width: 200px; height: auto;'>"  # Title in navbar
-    url     :  # default["url/baseurl"]
-    img     : # An small image, try 30x30px
+    title: "<img src='/assets/images/gatorface_logo.webp' alt='Gatorface Woodworking' style='width: 200px; height: auto;'>" # Title in navbar
+    url: # default["url/baseurl"]
+    img: # An small image, try 30x30px
   nav:
-  - title   : Projects
-    url     : /projects/ # url	
-  - title   : About
-    url     : /about/
-  - title   : Contact
-    url     : /contact/
+    - title: Projects
+      url: /projects/ # url
+    - title: About
+      url: /about/
+    - title: Contact
+      url: /contact/
+    - title: Shop
+      url: https://gatorfacewoodworking.etsy.com
 #  - title   : # Label submenu
-#    child:		
-#    - title: # Child label		
-#      url  : # child url	
-#    - title: # Child label		
-#      url  : # child url	
-  
+#    child:
+#    - title: # Child label
+#      url  : # child url
+#    - title: # Child label
+#      url  : # child url
+
 # C. Theme Settings
 # Google Fonts https://fonts.google.com/, add as many as you need
 googlefonts:
- # - url : # 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'
+  # - url : # 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'
 
 # Theme and colors
-chulapa-skin: 
-  highlight     :  # default["default"]
-  skin         :  # Optional predefined skins
-  autothemer    :  true # Bool: Use autotheming
-  vars          :    
-    primary     : "#5B513C"
-    secondary   : "#B2D235"
+chulapa-skin:
+  highlight: # default["default"]
+  skin: # Optional predefined skins
+  autothemer: true # Bool: Use autotheming
+  vars:
+    primary: "#5B513C"
+    secondary: "#B2D235"
     font-family-base: "'Cera Pro Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
     headings-font-family: "'Social Gothic Rough', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, serif"
     container-max-widths: "(sm: 540px, md: 720px, lg: 960px, xl: 1400px)"
@@ -90,33 +91,29 @@ chulapa-skin:
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
 # Collections https://jekyllrb.com/docs/step-by-step/09-collections/
-collections_dir     : 
+collections_dir:
 collections:
   projects:
     output: true
     permalink: /projects/:path/
 
-
 # Defaults https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
       header_type: "base"
-      include_on_search   : false
-      cloudtag_url        : /tags #This is where the link on tags would redirect
-      cloudcategory_url   : /categories #This is where the link on categories would redirect
-  -
-    scope:
+      include_on_search: false
+      cloudtag_url: /tags #This is where the link on tags would redirect
+      cloudcategory_url: /categories #This is where the link on categories would redirect
+  - scope:
       path: "_projects"
     values:
       show_breadcrumb: true
-      breadcrumb_list   :
+      breadcrumb_list:
         - label: Projects
           url: /projects/
-
 
 # XX. Other settings - no need to modify
 # HTML Compression
@@ -129,7 +126,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
 
-
 # Exclude these files from production site
 exclude:
   - LICENSE
@@ -138,9 +134,9 @@ exclude:
   - vendor
 
 include:
- - _pages
- - _projects
- - assets
+  - _pages
+  - _projects
+  - assets
 
 # Conversion
 markdown: kramdown
@@ -155,7 +151,7 @@ kramdown:
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
-  footnote_backlink: '&uarr;'
+  footnote_backlink: "&uarr;"
   entity_output: as_char
   toc_levels: 2..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
@@ -170,4 +166,3 @@ webp:
   enabled: true
   quality: 100
   img_dir: ["assets/images"]
-
