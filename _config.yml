@@ -55,16 +55,6 @@ navbar:
     url: # default["url/baseurl"]
     img: # An small image, try 30x30px
   nav:
-<<<<<<< Updated upstream
-    - title: Projects
-      url: /projects/ # url
-    - title: About
-      url: /about/
-    - title: Contact
-      url: /contact/
-    - title: Shop
-      url: https://gatorfacewoodworking.etsy.com
-=======
   - title   : Projects
     url     : /projects/ # url	
   - title   : Shop
@@ -73,7 +63,6 @@ navbar:
     url     : /about/
   - title   : Contact
     url     : /contact/
->>>>>>> Stashed changes
 #  - title   : # Label submenu
 #    child:
 #    - title: # Child label
