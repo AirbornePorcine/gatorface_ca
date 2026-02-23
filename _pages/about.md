@@ -86,7 +86,7 @@ hr {
   }
 }
 </style>
-Welcome to Gatorface Woodworking, a studio dedicated to creating mindful, enduring furniture in Nanaimo, BC. Each piece that leaves this workshop is environmentally conscious custom furniture that honors both traditional techniques and our planet's future.
+Welcome to Gatorface Woodworking, a studio dedicated to creating mindful, enduring home decor in Nanaimo, BC. Each piece that leaves this workshop is environmentally conscious custom object that honors both traditional techniques and our planet's future.
 {: .page-intro}
 
 ---
@@ -104,8 +104,8 @@ My journey into woodworking began with a revelation about its incredible potenti
 ## A Sustainable Approach
 {: .section-title}
 
-At the heart of Gatorface Woodworking lies a deep commitment to environmental stewardship. Every project begins with carefully selected local wood, sourced from Vancouver Island whenever possible to reduce transportation emissions and support our local forestry community.
-The finishing process relies exclusively on non-toxic, environmentally friendly products that are safe for your home and our ecosystem. Whenever possible, each piece is shaped by hand - this dedication to traditional methods ensures that no two creations are ever exactly alike, as the subtle variations and careful attention to grain patterns make every project a unique expression of the wood's natural character.
+At the heart of Gatorface Woodworking lies a deep commitment to environmental stewardship. Every project begins with carefully selected wood, locally sourced from Vancouver Island whenever possible to reduce transportation emissions and support our local forestry community. Other elements such as bio-based resins and repurposed metals are used when they make sense.
+The finishing process relies heavily on non-toxic, environmentally friendly products that are safe for your home and our ecosystem, whenever feasable, and the least damaging products when it's not. 
 {: .section-content}
 
 ---
@@ -113,7 +113,7 @@ The finishing process relies exclusively on non-toxic, environmentally friendly 
 ## The Workshop
 {: .section-title}
 
-The Nanaimo workshop runs entirely on clean energy, a testament to the commitment to reducing environmental impact. While modern tools are available, traditional hand tools and manual techniques are the preferred choice for most operations. This approach not only reduces energy consumption but creates a more intimate connection with each piece - every surface bears the distinctive marks of hand planes, chisels, and careful sanding that machine work simply cannot replicate.
+The Nanaimo workshop runs entirely on clean energy, a testament to the commitment to reducing environmental impact. While modern tools are available, traditional hand tools and manual techniques are the preferred choice for most operations. This approach not only reduces energy consumption but creates a more intimate connection with each piece. 
 {: .section-content}
 
 ---
@@ -121,7 +121,7 @@ The Nanaimo workshop runs entirely on clean energy, a testament to the commitmen
 ## A Personal Commitment
 {: .section-title}
 
-I believe that beautiful furniture shouldn't come at the cost of environmental degradation. By embracing traditional woodworking methods and sustainable practices, I create pieces that are built to last for generations while contributing to a healthier planet. Each project is a close collaboration with clients, ensuring their vision is realized in the most environmentally responsible way possible.
+I believe that beautiful home decor shouldn't come at the cost of environmental degradation. By embracing traditional woodworking methods and sustainable practices, I create pieces that are built to last for generations while contributing to a healthier planet. Each project is a close collaboration with clients, ensuring their vision is realized in the most environmentally responsible way possible.
 {: .section-content}
 
 ---
@@ -129,7 +129,7 @@ I believe that beautiful furniture shouldn't come at the cost of environmental d
 ## Let's Create Something Together
 {: .cta-title}
 
-I'd love to discuss your project and how we can bring your vision to life in a sustainable way. Whether you have a specific piece in mind or are looking for guidance, let's start a conversation about creating furniture that's both beautiful and environmentally conscious.
+I'd love to discuss your project and how we can bring your vision to life in a sustainable way. Whether you have a specific piece in mind or are looking for guidance, let's start a conversation about creating objects that are both beautiful and environmentally conscious.
 {: .cta-text}
 
 [Contact Me About Your Project](/contact/){: .cta-button} 

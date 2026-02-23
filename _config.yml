@@ -55,6 +55,7 @@ navbar:
     url: # default["url/baseurl"]
     img: # An small image, try 30x30px
   nav:
+<<<<<<< Updated upstream
     - title: Projects
       url: /projects/ # url
     - title: About
@@ -63,6 +64,16 @@ navbar:
       url: /contact/
     - title: Shop
       url: https://gatorfacewoodworking.etsy.com
+=======
+  - title   : Projects
+    url     : /projects/ # url	
+  - title   : Shop
+    url     : /shop/
+  - title   : About
+    url     : /about/
+  - title   : Contact
+    url     : /contact/
+>>>>>>> Stashed changes
 #  - title   : # Label submenu
 #    child:
 #    - title: # Child label
@@ -96,6 +107,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  products:
+    output: true
+    permalink: /shop/:path/
 
 # Defaults https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
@@ -114,6 +128,14 @@ defaults:
       breadcrumb_list:
         - label: Projects
           url: /projects/
+  -
+    scope:
+      path: "_products"
+    values:
+      show_breadcrumb: true
+      breadcrumb_list   :
+        - label: Shop
+          url: /shop/
 
 # XX. Other settings - no need to modify
 # HTML Compression
@@ -134,9 +156,16 @@ exclude:
   - vendor
 
 include:
+<<<<<<< Updated upstream
   - _pages
   - _projects
   - assets
+=======
+ - _pages
+ - _projects
+ - _products
+ - assets
+>>>>>>> Stashed changes
 
 # Conversion
 markdown: kramdown

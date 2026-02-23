@@ -14,9 +14,9 @@
 	  "@type": "Article",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/about/"
+        "@id": "http://localhost:4000/shop/"
       },
-      "headline": "About",
+      "headline": "Shop",
       "image": "http://localhost:4000/assets/images/IMG_0190.webp",
       "datePublished": "2026-02-22T19:15:50-08:00",
       "dateModified": "2026-02-22T19:15:50-08:00",
@@ -47,7 +47,7 @@
       },{
         "@type": "ListItem",
         "position": 2,
-        "name": "About"
+        "name": "Shop"
       }]
     }
     </script>
@@ -55,7 +55,7 @@
 {
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "name": "About",
+    "name": "Shop",
     "description": ""
     }
 }
@@ -72,8 +72,8 @@
   "url" : "http://localhost:4000/"
 }
 </script>
-   <title>About  |  Gatorface Woodworking</title>
-  <link rel="canonical" href="http://localhost:4000/about/">
+   <title>Shop  |  Gatorface Woodworking</title>
+  <link rel="canonical" href="http://localhost:4000/shop/">
     <!-- Atom feed -->
   <link href="http://localhost:4000/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed Gatorface Woodworking" >
     <!-- RSS 2.0 feed -->
@@ -88,9 +88,9 @@
     <!-- Chrome, Firefox OS and Opera -->
   <meta name="theme-color" content="#5B513C">
     <!-- OpenGraph -->
-   <meta property="og:title" content="About  |  Gatorface Woodworking" >
+   <meta property="og:title" content="Shop  |  Gatorface Woodworking" >
    <meta property="og:site_name" content="Gatorface Woodworking  |  Custom Woodworking in Nanaimo, BC" >
-   <meta property="og:url" content="http://localhost:4000/about/" >
+   <meta property="og:url" content="http://localhost:4000/shop/" >
    <meta property="og:type" content="website" >
    <meta property="og:description" content="" >
    <meta property="og:locale" content="en-US" >
@@ -127,7 +127,7 @@
 <!-- end custom head snippets -->
 </head>
 <body class="d-flex flex-column h-entry" id="body">
-	<a class="u-url d-none" href="http://localhost:4000/about/">Invisible link to canonical for Microformats</a>
+	<a class="u-url d-none" href="http://localhost:4000/shop/">Invisible link to canonical for Microformats</a>
 	<div class="navbar-chulapa-fab d-md-none">
 		<input type="checkbox" class="navbar-chulapa-fab-button d-none" id="navi-toggle">
 		<label for="navi-toggle" class="navbar-toggler p-1 m-0 text-center d-flex">
@@ -141,9 +141,9 @@
 				</li><li class="nav-item my-0 py-1">
 					<a class="nav-link px-3 py-1" href="http://localhost:4000/projects/">Projects</a>
 				</li><li class="nav-item my-0 py-1">
-					<a class="nav-link px-3 py-1" href="http://localhost:4000/shop/">Shop</a>
+					<a class="nav-link px-3 py-1 active font-weight-bold" href="http://localhost:4000/shop/">Shop<span class="sr-only">(current)</span></a>
 				</li><li class="nav-item my-0 py-1">
-					<a class="nav-link px-3 py-1 active font-weight-bold" href="http://localhost:4000/about/">About<span class="sr-only">(current)</span></a>
+					<a class="nav-link px-3 py-1" href="http://localhost:4000/about/">About</a>
 				</li><li class="nav-item my-0 py-1">
 					<a class="nav-link px-3 py-1" href="http://localhost:4000/contact/">Contact</a>
 				</li></ul>
@@ -154,14 +154,14 @@
 			<a class="navbar-brand text-uppercase font-weight-light" href="http://localhost:4000/"><img src='/assets/images/gatorface_logo.webp' alt='Gatorface Woodworking' style='width: 200px; height: auto;'></a><ul class="navbar-nav ml-auto"><li class="nav-item mx-2">
 						<a class="nav-link text-uppercase font-weight-light " href="http://localhost:4000/projects/">Projects</a>
 					</li><li class="nav-item mx-2">
-						<a class="nav-link text-uppercase font-weight-light " href="http://localhost:4000/shop/">Shop</a>
+						<a class="nav-link text-uppercase font-weight-light  active font-weight-bold" href="http://localhost:4000/shop/">Shop<span class="sr-only">(current)</span></a>
 					</li><li class="nav-item mx-2">
-						<a class="nav-link text-uppercase font-weight-light  active font-weight-bold" href="http://localhost:4000/about/">About<span class="sr-only">(current)</span></a>
+						<a class="nav-link text-uppercase font-weight-light " href="http://localhost:4000/about/">About</a>
 					</li><li class="nav-item mx-2">
 						<a class="nav-link text-uppercase font-weight-light " href="http://localhost:4000/contact/">Contact</a>
 					</li></ul></div>
 </nav>	<header class="d-flex align-items-center hero-chulapa-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.7)), url('http://localhost:4000/assets/images/IMG_0190.webp')"><div class="container-lg py-4">
-   <h1 class="p-name">About</h1>
+   <h1 class="p-name">Shop</h1>
  </div>
 </header>
 	<main class="container-lg pb-3 flex-fill">
@@ -172,26 +172,26 @@
 h1, h2, h3, h4, h5, h6 {
   color: var(--primary);
 }
-.hero-image {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  object-position: center;
-  margin: 0 0 2rem 0;
-}
-.page-intro {
+.shop-intro {
   font-size: 1.2rem;
   line-height: 1.6;
   text-align: center;
   max-width: 800px;
-  margin: 2rem auto;
+  margin: 2rem auto 3rem;
   color: #333;
 }
-hr {
-  border: none;
-  border-top: 1px solid #eee;
-  margin: 3rem auto;
-  max-width: 100px;
+.shopify-products-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.shopify-product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem 1.25rem;
+}
+.shopify-product-item {
+  min-width: 0;
 }
 .section-title {
   margin: 2rem 0 1rem;
@@ -204,59 +204,168 @@ hr {
   line-height: 1.6;
   color: #444;
 }
-.cta-title {
-  text-align: center;
-  font-size: 2rem;
-  margin: 3rem 0 1rem;
-}
-.cta-text {
-  text-align: center;
-  max-width: 600px;
-  margin: 0 auto 2rem;
-  line-height: 1.6;
-}
-.cta-button {
-  display: block;
-  width: fit-content;
-  margin: 2rem auto;
-  padding: 1rem 2rem;
-  background-color: var(--secondary);
-  color: var(--secondary-inverse) !important;
-  text-decoration: none;
-  border-radius: 4px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-.cta-button:hover {
-  background-color: var(--secondary-dark);
-  text-decoration: none;
-  color: var(--secondary-inverse) !important;
-}
 @media (max-width: 768px) {
-  .hero-image {
-    height: 200px;
+  .shop-intro {
+    font-size: 1rem;
+    padding: 0 1rem;
   }
 }
+/* Target the image wrapper inside the Shopify Modal */
+.shopify-buy-modal-wrapper .shopify-buy__product-img-wrapper {
+    max-width: 600px !important; /* Increase this number as needed */
+    width: 100% !important;
+}
 </style>
-<p class="page-intro">Welcome to Gatorface Woodworking, a studio dedicated to creating mindful, enduring home decor in Nanaimo, BC. Each piece that leaves this workshop is environmentally conscious custom object that honors both traditional techniques and our planet’s future.</p>
+<h2 class="section-title" id="shop-gatorface-woodworking">Shop Gatorface Woodworking</h2>
+<p class="shop-intro">Browse our collection of handcrafted woodworking pieces. Each item is carefully made with sustainable practices and traditional techniques in our Nanaimo workshop.</p>
+<div class="shopify-products-container">
+ <div id="shopify-product-list" class="shopify-product-list"></div>
+</div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: '81w3df-wg.myshopify.com',
+      storefrontAccessToken: '153a66932e4f9828338077058a0db2ed',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      var productIds = [
+          '8317324296383',
+          '8317321380031',
+          '8317313024191',
+          '8316215558335',
+          '8317331341503',
+          '8317331767487'
+      ];
+      if (productIds.length === 0) {
+        return;
+      }
+      var productListNode = document.getElementById('shopify-product-list');
+      productIds.forEach(function (productId) {
+        var productNode = document.createElement('div');
+        productNode.id = 'shopify-product-' + productId;
+        productNode.className = 'shopify-product-item';
+        productListNode.appendChild(productNode);
+        ui.createComponent('product', {
+          id: productId,
+          node: productNode,
+          moneyFormat: '%24%7B%7Bamount%7D%7D',
+          options: {
+            "product": {
+              "styles": {
+                "product": {
+                  "max-width": "100%",
+                  "margin-left": "0px",
+                  "margin-bottom": "0px",
+                  "width": "100%"
+                },
+                                "button": {
+        ":hover": {
+          "background-color": "#a0bd30"
+        },
+        "background-color": "#b2d235",
+        ":focus": {
+          "background-color": "#a0bd30"
+        }
+                                }
+              },
+              "buttonDestination": "modal",
+              "contents": {
+                "img": true,
+                "imgWithCarousel": false,
+                "title": true,
+                "price": true,
+                "description": false,
+                "button": true,
+                "quantity": false
+              },
+              "text": {
+                "button": "View details"
+              }
+            },
+            "modalProduct": {
+              "layout": "horizontal",
+              "width": "1200px",
+              "contents": {
+                "img": false,
+                "imgWithCarousel": true,
+                "description": true,
+                "button": false,
+                "buttonWithQuantity": true
+              },
+              "styles": {
+                "product": {
+      "@media (min-width: 601px)": {
+        "max-width": "100%",
+        "margin-left": "0px"
+      },
+       "img": {
+      "width": "100%",
+      "height": "auto",
+      "object-fit": "contain"
+    }
+    },
+    // This targets the main image inside the Shopify carousel
+    "carouselProduct": {
+        "height": "600px", // Forces the container to be taller
+        "margin-bottom": "20px"
+    },
+    "img": {
+      "width": "100% !important",
+      "height": "auto !important",
+      "object-fit": "contain",
+      "cursor": "zoom-in",
+      "transition": "transform 0.3s ease-in-out",
+      ":hover": {
+        "transform": "scale(1.4)" // The zoom effect
+      }
+    },
+    "imgWrapper": {
+        "overflow": "hidden !important" // Clips the zoom so it doesn't overlap text
+    }
+              },
+              "text": {
+                "button": "Add to cart"
+              }
+            },
+            "option": {},
+            "cart": {
+              "text": {
+                "total": "Subtotal",
+                "button": "Checkout"
+              }
+            },
+            "toggle": {}
+          },
+        });
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
 <hr />
-<h2 class="section-title" id="the-craftsperson">The Craftsperson</h2>
-<p><img src="/assets/images/IMG_0002.webp" alt="Paul at Gatorface Woodworking" class="img-fluid rounded-circle mx-auto d-block" style="width: 200px; height: 200px; object-fit: cover; margin: 2rem auto;" /></p>
-<p class="section-content">My journey into woodworking began with a revelation about its incredible potential for sustainability. Working with wood offers an infinite canvas for creating beautiful, useful pieces while maintaining a deep connection to environmental responsibility. The tactile nature of shaping wood by hand has become fundamental to my approach, making each project an opportunity to explore the unique characteristics of the material.</p>
-<hr />
-<h2 class="section-title" id="a-sustainable-approach">A Sustainable Approach</h2>
-<p class="section-content">At the heart of Gatorface Woodworking lies a deep commitment to environmental stewardship. Every project begins with carefully selected wood, locally sourced from Vancouver Island whenever possible to reduce transportation emissions and support our local forestry community. Other elements such as bio-based resins and repurposed metals are used when they make sense.
-The finishing process relies heavily on non-toxic, environmentally friendly products that are safe for your home and our ecosystem, whenever feasable, and the least damaging products when it’s not.</p>
-<hr />
-<h2 class="section-title" id="the-workshop">The Workshop</h2>
-<p class="section-content">The Nanaimo workshop runs entirely on clean energy, a testament to the commitment to reducing environmental impact. While modern tools are available, traditional hand tools and manual techniques are the preferred choice for most operations. This approach not only reduces energy consumption but creates a more intimate connection with each piece.</p>
-<hr />
-<h2 class="section-title" id="a-personal-commitment">A Personal Commitment</h2>
-<p class="section-content">I believe that beautiful home decor shouldn’t come at the cost of environmental degradation. By embracing traditional woodworking methods and sustainable practices, I create pieces that are built to last for generations while contributing to a healthier planet. Each project is a close collaboration with clients, ensuring their vision is realized in the most environmentally responsible way possible.</p>
-<hr />
-<h2 class="cta-title" id="lets-create-something-together">Let’s Create Something Together</h2>
-<p class="cta-text">I’d love to discuss your project and how we can bring your vision to life in a sustainable way. Whether you have a specific piece in mind or are looking for guidance, let’s start a conversation about creating objects that are both beautiful and environmentally conscious.</p>
-<p><a href="/contact/" class="cta-button">Contact Me About Your Project</a></p>
+<h2 class="section-title" id="custom-orders">Custom Orders</h2>
+<p class="section-content">Looking for something specific? We also take custom orders for furniture and home goods tailored to your space and style. Each custom piece is a collaboration designed to meet your unique needs.</p>
+<p><a href="/contact/" class="cta-button btn btn-primary d-block mx-auto" style="width: fit-content; margin: 2rem auto; padding: 1rem 2rem; background-color: var(--secondary); color: var(--secondary-inverse) !important; text-decoration: none; border-radius: 4px; font-weight: bold; transition: background-color 0.3s ease;">Contact Me About Custom Work</a></p>
 </article>
 		</div>
 	</main><!-- Footer -->

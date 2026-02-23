@@ -11,12 +11,12 @@ project_links:
     - url: /projects
       icon: fas fa-hammer
       label: Projects
+    - url: /shop
+      icon: fas fa-shopping-cart
+      label: Shop
     - url: /contact
       icon: fas fa-envelope
       label: Contact
-    - url: https://gatorfacewoodworking.etsy.com
-      icon: fas fa-shopping-cart
-      label: Shop
 ---
 <style>
 .btn-group-vertical {
