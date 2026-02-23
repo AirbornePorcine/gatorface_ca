@@ -156,16 +156,9 @@ exclude:
   - vendor
 
 include:
-<<<<<<< Updated upstream
   - _pages
   - _projects
   - assets
-=======
- - _pages
- - _projects
- - _products
- - assets
->>>>>>> Stashed changes
 
 # Conversion
 markdown: kramdown
